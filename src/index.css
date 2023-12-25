@@ -73,3 +73,15 @@ code {
   border-radius: 20px;
   box-shadow:  0px 3px  #FF9B16 ;
 }
+.quiz label{
+  font-size: 20px;
+}
+.quiz .question{
+  font-size: 40px;
+}
+.quiz li{
+  list-style-type: none;
+}
+::-webkit-scrollbar {
+  width: 1px;
+}

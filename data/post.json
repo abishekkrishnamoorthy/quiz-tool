@@ -2,8 +2,40 @@
     "items": [
       {
         "id": 1,
-        "title":"general knowlwdge"
-      },
+        "title":"general knowlwdge",
+        "qa":[
+          {"qno":1,
+           "q":"what is capital of tn?",
+           "op1":"delhi",
+           "op2":"canada",
+           "op3":"chennai",
+           "op4":"trichy"
+           },
+          {
+           "qno":2,
+           "q":"what is capital of tn?",
+           "op1":"delhi",
+           "op2":"canada",
+           "op3":"chennai",
+           "op4":"trichy"
+           },
+           {
+            "qno":3,
+            "q":"what is capital of tn?",
+            "op1":"delhi",
+            "op2":"canada",
+            "op3":"chennai",
+            "op4":"trichy"
+            },{
+              "qno":4,
+              "q":"what is capital of tn?",
+              "op1":"delhi",
+              "op2":"canada",
+              "op3":"chennai",
+              "op4":"trichy"
+              }]
+          },
+        
       {
         "id": 2,
         "title":"food quiz"

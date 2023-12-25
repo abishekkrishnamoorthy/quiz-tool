@@ -9,7 +9,7 @@ import Quiz from './Quiz'
 
 const Content = ({item,navigate}) => {
   return (
-    <div className='content' >
+    <div className='content flex flex-col grow flex-wrap  overflow-auto ' >
       <Routes>
         <Route path="/post" element={<Post item={item}
                                            navigate={navigate}/>}/>
