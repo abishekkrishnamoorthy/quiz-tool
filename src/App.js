@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 
 import Header from "./Header";
 import Content from "./Content";
@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 function App() {
   const api_url="http://localhost:5000/items"
   const [item,setitem]=useState([])
+  const navigate=useNavigate()
   useEffect( ()=>{
     const fetch_data=async ()=>{
       try{
@@ -21,10 +22,12 @@ function App() {
   }
   fetch_data()
 },[])
+   
   return (
     <div className="App">
       <Header/>
-      <Main item={item}/>
+      <Main item={item}
+            navigate={navigate}/>
 
     </div>
   );
