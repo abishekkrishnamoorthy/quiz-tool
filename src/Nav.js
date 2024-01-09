@@ -1,12 +1,14 @@
 import React from 'react'
+import Createquiz from './Createquiz'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div className='nav'>
-        <li><Link to="/manual" style={{textDecoration: 'none'}}>Manual</Link></li>
-        <li><Link to="/ai" style={{textDecoration: 'none'}}>Ai</Link></li>
-        <li><Link to="/post" style={{textDecoration: 'none'}}>Posts</Link></li>
+    <div className=' flex flex-row Nav'> 
+        <ul>
+        <li><Link to="/createquiz">Create quiz</Link></li>
+        <li><Link to="/quizpost">Post</Link></li>
+        </ul>
     </div>
   )
 }

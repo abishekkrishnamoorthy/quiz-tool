@@ -1,0 +1,75 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "title": "genaral knowledge",
+        "datetime": "jan 01, 2023 11:17:36 AM",
+        "question":[
+            {
+                "qno":1,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            },
+            {
+                "qno":2,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            },
+            {
+                "qno":3,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            },
+            {
+                "qno":4,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            },
+            {
+                "qno":5,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "genaral knowledge part 2",
+        "datetime": "jan 01, 2023 11:17:36 AM",
+        "question":[
+            {
+                "qno":1,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            },
+            {
+                "qno":2,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            },
+            {
+                "qno":3,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            },
+            {
+                "qno":4,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            },
+            {
+                "qno":5,
+                "q1":"what is our planet name?",
+                "op":["earth","ddd","jjjj"],
+                "ans":"earth"
+            }
+        ]}]}

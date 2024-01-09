@@ -1,9 +1,10 @@
 import React from 'react'
-import logo from './logo.png'
+import Nav from './Nav'
+
 const Header = () => {
   return (
     <div className='header'>
-      <img src={logo} alt=""  className=' w-44 ml-10'/>
+        <Nav/>
     </div>
   )
 }
